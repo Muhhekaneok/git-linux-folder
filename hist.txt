@@ -1,0 +1,33 @@
+ 1  ssh-keygen
+    2  cat .ssh/id_rsa.pub
+    3  ssh -i ~/.ssh/id_rsa ec2-user@3.71.99.70
+    4  ssh -i ~/.ssh/id_rsa ec2-user@3.71.99.70
+    5  cat .ssh/id_rsa.pub
+    6  cat ~/.ssh/id_rsa.pub
+    7  git -version
+    8  git --version
+    9  time
+   10  help
+   11  n
+   12  [n]
+   13  cd d:
+   14  dir
+   15  cd git_linux_folder/
+   16  cd ..
+   17  ls
+   18  cd git_linux_folder/
+   19  ls
+   20  echo "# first repository" >> README.md
+   21  ls
+   22  cat README.md
+   23  git init
+   24  git add .
+   25  git commit -m "added files"
+   26  git branch -M main
+   27  git remote add origin https://github.com/Muhhekaneok/git-linux-folder.git
+   28  git push -u origin main
+   29  history
+   30  git add .
+   31  git push -u origin main
+   32  git commit -m "add history"
+   33  history
